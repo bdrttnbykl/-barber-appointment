@@ -7,8 +7,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "business.panel")
 public class BusinessPanelProperties {
 
-	private String username = "admin@barber.local";
-	private String password = "admin123";
+	private String username = "";
+	private String password = "";
 	private Duration sessionTtl = Duration.ofHours(8);
 
 	public String getUsername() {
