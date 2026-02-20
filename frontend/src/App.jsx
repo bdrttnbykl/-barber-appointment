@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import logoPng from './assets/logo.png'
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8081'
+const API_BASE = import.meta.env.VITE_API_BASE ?? 'http://localhost:8081'
 const CONTACT_PHONE = import.meta.env.VITE_CONTACT_PHONE ?? '0 (242) 000 00 00'
 const CONTACT_EMAIL = import.meta.env.VITE_CONTACT_EMAIL ?? 'iletisim@barber.local'
 const CONTACT_ADDRESS =
